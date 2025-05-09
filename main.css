@@ -92,3 +92,13 @@ h1 {
     color: #22aa67;
     text-decoration: none;
 }
+
+.cardDestaque,
+.cardPromo{
+    max-height: 250px;
+}
+
+.cardPromo img,
+.cardDestaque img {
+    max-width: 100%;
+}
