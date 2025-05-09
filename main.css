@@ -1,0 +1,94 @@
+.carousel-item img{
+    max-width: 626px;
+    max-height: 352px;
+}
+
+.container-pair{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #eec12c; 
+    color: #222;
+}
+
+header {
+    background-color: #fefefe; 
+    color: #22aa67;
+}
+
+header img {
+    height: 200px;
+}
+
+h1 {
+    color: #22aa67;
+    text-shadow: 1px 1px 2px 
+    rgba(0,0,0,0.1);
+}
+
+
+.carousel-inner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    background-color: #e5f8ef;
+    border: 1px solid #22aa67;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.cardPizza{
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.cardaPizza > .card{
+    height: 400px;
+}
+
+.cardPizza:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
+.cardPizza img {
+    height: 100px;
+    width: 100%;
+}
+
+.card-body {
+    min-height: 247px;
+    color: #22aa67;
+}
+
+.card-header {
+    background-color: #22aa67;
+    color: #eec12c;
+    font-weight: bold;
+}
+
+.btn-success {
+    background-color: #22aa67;
+    border-color: #22aa67;
+    color: #eec12c;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    background-color: #e5f8ef;
+}
+
+.dropdown-item a {
+    color: #22aa67;
+    text-decoration: none;
+}

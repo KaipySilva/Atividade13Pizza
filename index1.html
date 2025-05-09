@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Pizzarriba</title>
+</head>
+
+<body>
+    <header class="">
+        <div class="container d-flex align-items-center justify-content-between">
+            <img src="./img/images-removebg-preview.png" alt="Logo da pizzaria" />
+            <div class="dropdown">
+                <button data-bs-toggle="dropdown" class="btn btn-success dropdown-toggle">
+                    Mais
+                </button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">Quem somos?</a></li>
+                    <li class="dropdown-item"><a href="#">Carrinho</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <h1 class="text-center my-4">La pizza mais rápida da região</h1>
+
+    <div class="container">
+        <div class="row">
+            <!-- Coluna Esquerda -->
+            <div class="col-md-2">
+                <div class="card mb-4">
+                    <div class="card-header">Destaque</div>
+                    <img src="https://placehold.co/150" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Pizza do dia!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coluna Central -->
+            <div class="col-md-8">
+                <!-- Carrossel -->
+                <div id="carrosel" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3500" class="carousel-item active">
+                            <img class="d-block w-100" src="./img/pizzaMexicarousel.jpg" alt="" />
+                            <div class="carousel-caption">
+                                <h2>Mexicana</h2>
+                                <h4>Especialidade da Casa!</h4>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3500" class="carousel-item">
+                            <img class="d-block w-100" src="./img/pizza4queicarosel.webp" alt="" />
+                            <div class="carousel-caption">
+                                <h2>Quatro Queijos</h2>
+                                <h4>Na promoção essa semana!</h4>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3500" class="carousel-item">
+                            <img class="d-block w-100" src="./img/pizzaCalabrcarosel.avif" alt="" />
+                            <div class="carousel-caption">
+                                <h2>Calabresa</h2>
+                                <h4>A queridinha!</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carrosel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carrosel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+
+                <!-- Cards de Pizzas -->
+                <div class="row">
+                    <div class="cardPizza col-sm-8 col-md-6 col-lg-4 mb-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">Mexicana</div>
+                            <img src="./img/pizzaMexicarousel.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Mexicana</h4>
+                                <p class="card-text">Calabresa, tomate, molho</p>
+                                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardPizza col-sm-8 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-header">Portuguesa</div>
+                            <img src="./img/pizzaportCARDS.jpeg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Portuguesa</h4>
+                                <p class="card-text">Presunto, ovo, cebola</p>
+                                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardPizza col-sm-8 col-md-6 col-lg-4 mb-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">4 Queijos</div>
+                            <img src="./img/pizza4queicarosel.webp" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">4 Queijos</h4>
+                                <p class="card-text">Mussarela, gorgonzola, prato, parmesão</p>
+                                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cardPizza col-sm-8 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-header">Calabresa</div>
+                            <img src="./img/pizzaCalabrcarosel.avif" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Calabresa</h4>
+                                <p class="card-text">Mussarela, gorgonzola, prato, parmesão</p>
+                                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardPizza col-sm-8 col-md-6 col-lg-4 mb-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">Chocolate com Morango</div>
+                            <img src="./img/pizzaDoce.jpeg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Chocolate com Morango</h4>
+                                <p class="card-text">Mussarela, gorgonzola, prato, parmesão</p>
+                                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cardPizza col-sm-8 col-md-6 col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-header">Strogonoff de Frango</div>
+                            <img src="./img/pizza-Strogfrango.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Strogonoff de Frango</h4>
+                                <p class="card-text">Mussarela, gorgonzola, prato, parmesão</p>
+                                <a href="#" class="btn btn-success">Adicionar ao carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coluna Direita -->
+            <div class="col-md-2">
+                <div class="card mb-4">
+                    <div class="card-header">Promoção</div>
+                    <img src="https://placehold.co/150" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Pizza de frango R$29,99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
